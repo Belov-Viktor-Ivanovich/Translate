@@ -59,6 +59,11 @@ void Field::setOutlineCol(Color color)
 	field.setOutlineColor(color);
 }
 
+String Field::getFieldStr()
+{
+	return text.getString();
+}
+
 
 
 

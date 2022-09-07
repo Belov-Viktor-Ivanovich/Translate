@@ -34,12 +34,14 @@ private:
 	Field* window4_4;
 	Field* window5;
 	Field* window5_5;
+	Field* result;
 	Button** buttons;
 	Field** fields;
 	Field* field;
 	Button* search;
 	string text;
 	int maxStr = 102762;
+	
 	//Training* trenirov;
 public:
 
@@ -48,6 +50,7 @@ public:
 	void windows();
 	void windowsTranslate();
 	void windowsTraining();
+	void windowsTranslateResult();
 	string http(string str2);
 	static size_t getResponsetoString(void* contents, size_t size, size_t nmemb, void* userp);
 	string choose(string& str);
@@ -58,5 +61,7 @@ public:
 	int getMaxStr();
 	string UTF8_to_CP1251(std::string const& utf8);
 	void game();
+	void Ggame();
+	
 };
 

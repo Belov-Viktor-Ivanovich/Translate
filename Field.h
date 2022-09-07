@@ -21,6 +21,10 @@ public:
 	String getTextToString();
 	void setOutlineThickness(int a);
 	void setOutlineCol(Color color);
+	String getFieldStr();
+
+
+	
 	
 };
 
